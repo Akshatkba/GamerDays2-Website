@@ -64,6 +64,7 @@ function Chess() {
           className="form-font grid  grid-cols-1 justify-center px-2 md:px-10"
           onSubmit={handleSubmit}
         >
+        <label className="text-[21px] text-left px-2" >Name:</label>
           <input
             name="name"
             type="text"
@@ -73,6 +74,7 @@ function Chess() {
             onChange={(e) => setName(e.target.value)}
             value={name}
           />
+          <label className="text-[21px] text-left px-2" >Phone Number:</label>
           <input
             name="phone-number"
             type="number"
@@ -82,6 +84,7 @@ function Chess() {
             onChange={(e) => setPhone(e.target.value)}
             value={phoneNumber}
           />
+          <label className="text-[21px] text-left px-2" >E-mail:</label>
           <input
             name="email"
             type="email"
@@ -91,6 +94,7 @@ function Chess() {
             onChange={(e) => setEmail(e.target.value)}
             value={email}
           />
+          <label className="text-[21px] text-left px-2" >Institute:</label>
           <input
             name="institute"
             type="text"
@@ -100,6 +104,7 @@ function Chess() {
             onChange={(e) => setInstitute(e.target.value)}
             value={institute}
           />
+          <label className="text-[21px] text-left px-2" >Discord Username:</label>
           <input
             name="discord"
             type="text"

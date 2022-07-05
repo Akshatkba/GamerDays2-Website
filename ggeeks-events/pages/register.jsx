@@ -40,7 +40,7 @@ function Register() {
 
       </div>
       <div className=''>
-        <h1 className='text-xl md:text-3xl py-10'>Terms & condition </h1>
+        <h1 className='text-xl md:text-3xl py-10'>Terms & conditions </h1>
         <div className='justify-start text-left para-1 px-20 white-glassmorphism'>
           <ul className='px-10 py-5'>
             <li className='text-xl py-3'>
